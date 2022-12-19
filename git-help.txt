@@ -1,13 +1,14 @@
-Criar novo repositÛrio no Site
+Criar novo reposit√≥rio no Site
 Abrir Git Bash
 Entrar na pasta do projeto de trabalho corrente
 
 $ git init
 $ git add .
 $ git commit -m "First commit"
+$ git status
 $ git remote add origin https://github.com/lobo-death/folder.git
 $ git remote -v
 $ git push origin master
 
-usu·rio: lobo-death
-password: padr„o
+usu√°rio: lobo-death
+password: padr√£o
