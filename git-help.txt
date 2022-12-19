@@ -1,13 +1,23 @@
-Criar novo repositório no Site
-Abrir Git Bash
-Entrar na pasta do projeto de trabalho corrente
+New Repository Online
+- Create a new repository in https://github.com/'your-user'/'your-folder'.git
+- Create a new README.md and LICENCE files in your repository
 
+Getting Files from Online Repository to Local Repository
+- Create a new folder in your local machine
+- Access the new folder with 'cd folder' and follow the steps below:
+$ git init
+$ git clone git@github.com:'your-user'/'your-folder'.git
+
+Sending Files from Local Repository to Online Repository
+- Access the new folder with 'cd folder' and follow the steps below:
 $ git init
 $ git add .
-$ git commit -m "First commit"
-$ git remote add origin https://github.com/lobo-death/folder.git
+$ git status
+$ git commit -m "write a comment about it"
+$ git remote add origin https://github.com/'your-user'/'your-folder'.git
 $ git remote -v
-$ git push origin master
+$ git push origin main
 
-usuário: lobo-death
-password: padrão
+user: lobo-death / marcelo-machado-ds
+password: #@***6 / #@***23
+
